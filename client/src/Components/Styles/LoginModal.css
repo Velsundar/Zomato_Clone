@@ -1,0 +1,32 @@
+.modalContent{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    top: 80px;
+    left: 400px;
+}
+.closeButton{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: transparent;
+    border: none;
+}
+.modalContent h2{
+    position: absolute;
+    left: 150px;
+    top: 70px;
+    color: red;
+}
+.ModelForm1{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+.LoginButton{
+    position: absolute;
+    left: 100px;
+    color: red;
+    font-weight: 800;
+}

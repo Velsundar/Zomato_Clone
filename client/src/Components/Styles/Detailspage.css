@@ -1,0 +1,27 @@
+/* Top Carousel Images */
+.carouselimages{
+    height: 400px;
+    width: 100%;
+}
+/* order button and restaurant heading */
+.orderheadbutton{
+    height: 90px;
+    width: 100%;
+    position: relative;
+}
+.orderheadbutton button{
+    position: absolute;
+    right: 40px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    top: 30px;
+}
+.orderheadbutton h3{
+    position: absolute;
+    left: 20px;
+    color: rgb(230, 87, 87);
+    font-size: 30px;
+    font-weight: 700;
+}

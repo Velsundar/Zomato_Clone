@@ -1,0 +1,49 @@
+/* Grid search boxes */
+#quickgrids{
+    position: relative;
+    box-shadow: 0ch 10px 6px 0;
+    height: 130px;
+    width: 340px;
+    margin: auto;
+    margin: 10px 10px 30px 10px;
+    /* margin-bottom: 15px; */
+}
+#quickgrids:hover{
+    cursor: pointer;
+}
+.gridimage{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    left: 0;
+}
+.gridboxheading{
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 15px;
+    color: aquamarine;
+}
+.gridboxpara{
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 60px;
+    color: gray;
+}
+/* quicksearch.js */
+.container{
+    position: relative;
+    margin-left: 50px;
+    width: 90%;
+}
+.Searchhead{
+    color: black;
+}
+.quicksearchpara{
+    color: black;
+    font-size: 20px;
+}
+.container_search{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}

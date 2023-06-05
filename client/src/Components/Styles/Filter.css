@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+.filtersection{
+    position: relative;
+    /* display: inline-block; */
+    width: 250px;
+    height: 600px;
+    background-color: whitesmoke;
+    left: 20px;
+    top: 10px;
+    box-shadow: 1px 2px 6px 4px rgb(235, 233, 233);
+}
+.filterhead1{
+    margin-left: 10px;
+}
+.filterlocationname{
+    margin-left: 10px;
+}
+.locationbox{
+    height: 25px;
+    width: 170px;
+    margin-left: 10px;
+}
+.Checkselect{
+    margin-left: 10px;
+}
+.Checkoptions{
+    margin-left: 10px;
+}
+/* Product Section */
+.Productsection{
+    background-color: whitesmoke;
+    position: relative;
+    height: 250px;
+    width: 800px;
+    /* display: inline-block; */
+    left: 50px;
+    top: 50px;
+    
+}
+.Productsection img{
+    position: absolute;
+    height: 80px;
+    width: 90px;
+    top: 30px;
+    left: 15px;
+    border-radius: 9px;
+    box-shadow: 1px 2px 8px 4px  rgb(165, 160, 160);
+}
+.Productsection h3{
+    position: absolute;
+    left: 130px;
+    top: 20px;
+}
+.productlocation{
+    position: absolute;
+    left: 130px;
+    top: 70px;
+}
+.Productlocation1{
+    position: absolute;
+    left: 130px;
+    top: 90px;
+}
+hr{
+    /* position: absolute; */
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow:visible;
+    text-align: center;
+    height: 5px;
+    margin-top: 110px;
+}

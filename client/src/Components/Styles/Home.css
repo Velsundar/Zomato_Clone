@@ -1,0 +1,161 @@
+.mainimage{
+    position: relative;
+    opacity: 90%;
+}
+.logo{
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    align-items: center;
+    background-color: white;
+    color: rgb(197, 91, 52);
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 50px;
+    padding-left: 10px;
+    top: 100px;
+    left: 600px;
+}
+#login{
+    text-align: right;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.btn{
+    /* position: absolute; */
+    justify-content: center;
+}
+.locationSelector{
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    box-sizing: border-box;
+    font-size: 15px;
+    
+}
+.locationDropdown{
+    margin-left: 20px;
+    height: 45px;
+    width: 300px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 6px;
+}
+/* Searchbox Stylings */
+/* #searchbox{
+    position: absolute;
+    top: 250px;
+    left: 680px;
+    background-color: whitesmoke;
+    width: 22%;
+    border-radius: 4px;
+    height: 4.4rem;
+    padding:0 15px;
+    box-shadow: 0px 0px 8px #827e7e; 
+    display: flex;
+    align-items: center; 
+}
+#searchbox1{
+    background-color: White;
+    border: none;
+    height: 100%;
+    font-size:1.60rem;
+    width: 100%;
+    margin-left: 8px;
+}
+#searchbox1:focus{
+    outline:none;
+}
+#Searchicon{
+    left: 10px;
+    color: royalblue;
+    font-size: 25px;
+} */
+.searchbox{
+    position:absolute;
+    top: 250px;
+    left: 669px;
+   
+}
+#searchbox1{
+    /* position: absolute; */
+    font-size: 14px;
+    padding-left: 35px;
+    width: 347px;
+    height: 45px;
+    color: #8c96ab;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    margin-left: -10px;
+    background-color: whitesmoke;
+}
+.search{
+    left: 10px;
+    color: #021234;
+    font-size: 14px;
+}
+::placeholder{
+    text-align:left;
+    font-size:14px;
+    color: #8c96ab;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height:1.5;
+    letter-spacing: normal;
+    text-align: left;
+    
+}
+.headings{
+    position: absolute;
+    font-size: 30px;
+    color: whitesmoke;
+    top: 200px;
+    left: 400px;
+    text-align: center;
+    font-weight: 600;
+}
+/* Search results */
+.search-result-restaurant-block{
+    background-color: white;
+    text-align: left;
+    cursor: pointer;
+    height: 100px;
+}
+.search-result-image-block{
+    display: inline-block;
+    margin: 10px 0 10px 20px;
+
+}
+.search-result-restaurant-details{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0 10px 20px;
+}
+.search-result-restaurant-name{
+    color: blue;
+    font-size: 16px;
+    font-weight: bold;
+}
+.search-result-restaurant-address{
+    color: rgb(202, 121, 16);
+    font-size: 12px;
+    font-weight: normal;
+    width: 300px;
+}
+.no-result-block{
+    background-color: white;
+    text-align: left;
+    height: 50px;
+    padding: 10px;
+}
+.no-result-message{
+    color: blue;
+    font-size: 16px;
+    font-weight: bold;
+}
